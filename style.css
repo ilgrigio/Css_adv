@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ESERCIZIO 1) */
+.jumbotron h1 {
+  font-size: xx-large;
+  color: coral;
+}
+/* ESERCIZIO 2) */
+.nav.d-flex > span {
+  background-color: blueviolet;
+  color: aliceblue;
+}
+/* ESERCIZIO 3) */
+.jumbotron a.font-weight-bold {
+  color: crimson;
+}
+/* ESERCIZIO 4) */
+div.blog-post:nth-of-type(1) p {
+  color: blueviolet;
+}
+/* .blog-post p:nth-of-type(3) {
+  color: blueviolet;
+} */
+/* ESERCIZIO 5) */
+.blog-post hr:first-of-type {
+  background-color: red;
+}
+/* ESERCIZIO 6) */
+/* ESERCIZIO 7) */
+/* ESERCIZIO 8) */
+/* ESERCIZIO 9) */
+/* ESERCIZIO 10) */
+/* ESERCIZIO 11) */
+/* ESERCIZIO 12) */
