@@ -20,9 +20,10 @@ body {
   color: crimson;
 }
 /* ESERCIZIO 4) */
-div.blog-post:nth-of-type(1) p {
+.blog-post:first-of-type {
   color: blueviolet;
 }
+
 /* .blog-post p:nth-of-type(3) {
   color: blueviolet;
 } */
@@ -31,6 +32,9 @@ div.blog-post:nth-of-type(1) p {
   background-color: red;
 }
 /* ESERCIZIO 6) */
+nav.nav.d-flex span:nth-of-type(odd) {
+  font-family: "Courier New", Courier, monospace;
+}
 /* ESERCIZIO 7) */
 /* ESERCIZIO 8) */
 /* ESERCIZIO 9) */
