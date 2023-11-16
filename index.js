@@ -3,9 +3,18 @@
 //   aLink.classList.add("displayNone");
 // };
 // removeLink();
-let aLink = document.querySelectorAll("h2");
+const liReset = document.querySelectorAll("li");
+for (let i = 0; i < liReset.length; i++) {
+  if (liReset[i].textContent.includes("Twitter")) {
+    liReset[i].remove();
+  }
+}
 
-const removeLink = function () {
-  aLink.innerText = "Ciao pippo";
+let aSelector = document.querySelectorAll(".blog-post-meta a");
+let nomeAutore = function () {
+  for (let i = 0; i < aSelector.length; i++) {
+    aSelector[i].addEventListener("mouseover", nomeAutore);
+  }
+  alert("Questo è l'autore dell'articolo");
 };
-console.log(removeLink());
+// console.log(nomeAutore());
