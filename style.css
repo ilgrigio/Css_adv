@@ -21,7 +21,8 @@ body {
 }
 /* ESERCIZIO 4) */
 .blog-post:first-of-type {
-  color: blueviolet;
+  /* color: blueviolet; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* .blog-post p:nth-of-type(3) {
@@ -32,12 +33,31 @@ body {
   background-color: red;
 }
 /* ESERCIZIO 6) */
-nav.nav.d-flex span:nth-of-type(odd) {
+nav.nav.d-flex span:nth-of-type(even) {
   font-family: "Courier New", Courier, monospace;
 }
 /* ESERCIZIO 7) */
+div.p-4:nth-of-type(2) a:hover {
+  color: rgb(255, 42, 0);
+}
 /* ESERCIZIO 8) */
+div.blog-post:nth-of-type(2) .blog-post-meta a {
+  color: rgb(184, 15, 125);
+}
 /* ESERCIZIO 9) */
+div.blog-post:nth-of-type(3) li:nth-of-type(2) {
+  background-color: chartreuse;
+}
 /* ESERCIZIO 10) */
+a.float-right {
+  font-size: x-large;
+}
 /* ESERCIZIO 11) */
+a.btn.btn-outline-secondary {
+  background-color: darkblue;
+}
 /* ESERCIZIO 12) */
+footer a:nth-of-type(2) {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+}
