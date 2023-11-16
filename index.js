@@ -11,10 +11,12 @@ for (let i = 0; i < liReset.length; i++) {
 }
 
 let aSelector = document.querySelectorAll(".blog-post-meta a");
-let nomeAutore = function () {
-  for (let i = 0; i < aSelector.length; i++) {
-    aSelector[i].addEventListener("mouseover", nomeAutore);
-  }
+const nomeAutore = function () {
+  aSelectAuth.addEventListener("mouseover", nomeAutore);
   alert("Questo è l'autore dell'articolo");
 };
+for (let i = 0; i < aSelector.length; i++) {
+  let aLink = nomeAutore(aSelector[i]);
+}
 // console.log(nomeAutore());
+// nomeAutore();
