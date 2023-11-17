@@ -9,14 +9,14 @@ for (let i = 0; i < liReset.length; i++) {
     liReset[i].remove();
   }
 }
-
-let aSelector = document.querySelectorAll(".blog-post-meta a");
-const nomeAutore = function () {
-  aSelectAuth.addEventListener("mouseover", nomeAutore);
+const alertMessage = function () {
   alert("Questo è l'autore dell'articolo");
 };
-for (let i = 0; i < aSelector.length; i++) {
-  let aLink = nomeAutore(aSelector[i]);
-}
-// console.log(nomeAutore());
-// nomeAutore();
+const nomeAutore = function () {
+  const aSelector = document.querySelectorAll("p.blog-post-meta a");
+  for (let i = 0; i < aSelector.length; i++) {
+    console.log(aSelector[i].innerHTML);
+    aSelector[i].addEventListener("mouseover", alertMessage);
+  }
+};
+console.log(nomeAutore());
